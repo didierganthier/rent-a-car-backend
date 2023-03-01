@@ -1,5 +1,5 @@
 class CarsController < ApplicationController
-  before_action :authorize
+  before_action :authorize, only: %i[create destroy]
   before_action :read_car, only: %i[show destroy]
 
   def index
@@ -23,7 +23,7 @@ class CarsController < ApplicationController
 
   def destroy
     if @car.destroy
-      render json: 'Vehicle deleted successfully'
+      render json: 'Car deleted successfully'
     else
       render json: @car.errors.full_messages
     end
