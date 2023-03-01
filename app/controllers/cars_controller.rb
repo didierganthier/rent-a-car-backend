@@ -23,7 +23,7 @@ class CarsController < ApplicationController
 
   def destroy
     if @car.destroy
-      render json: 'Car deleted successfully'
+      render json: { id: @car.id, message: 'Car deleted successfully' }
     else
       render json: @car.errors.full_messages
     end
