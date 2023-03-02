@@ -1,6 +1,7 @@
 # 📗 Table of Contents
 - [📗 Table of Contents](#-table-of-contents)
 - [📖 Exotic Rentals API ](#-exotic-rentals-api-)
+  - [API Documentation](#api-documentation)
   - [Frontend](#frontend)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
@@ -23,6 +24,9 @@
 # 📖 Exotic Rentals API <a name="about-project"></a>
 
 **Exotic Rentals API** is a backend API for a car rental application. It allows users to create an account, login, and book a car for a specific period of time. It also allows users to view all available cars, and view a specific car. It also allows users to view all bookings made by a specific user.
+
+## API Documentation
+[Link to API Documentation](https://documenter.getpostman.com/view/26130158/2s93CUG9HF)
 
 ## Frontend
 
