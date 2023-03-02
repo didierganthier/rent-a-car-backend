@@ -6,6 +6,7 @@ class UsersController < ApplicationController
       time = Time.now + 24.hours.to_i
       render json: { token:, exp: time.strftime('%m-%d-%Y %H:%M'),
                      name: @user.name, id: @user.id }, status: :ok
+
     else
       render json: { error: 'unauthorized', error_message: @user.errors }, status: :unauthorized
     end
