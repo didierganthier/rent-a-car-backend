@@ -1,6 +1,6 @@
 # 📗 Table of Contents
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Exotic Rentals API ](#-exotic-rentals-api-)
+- [📖 Car Rentals API ](#-car-rentals-api-)
   - [API Documentation](#api-documentation)
   - [Frontend](#frontend)
   - [🛠 Built With ](#-built-with-)
@@ -21,9 +21,9 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-# 📖 Exotic Rentals API <a name="about-project"></a>
+# 📖 Car Rentals API <a name="about-project"></a>
 
-**Exotic Rentals API** is a backend API for a car rental application. It allows users to create an account, login, and book a car for a specific period of time. It also allows users to view all available cars, and view a specific car. It also allows users to view all bookings made by a specific user.
+**Car Rentals API** is a backend API for a car rental application. It allows users to create an account, login, and book a car for a specific period of time. It also allows users to view all available cars, and view a specific car. It also allows users to view all bookings made by a specific user.
 
 ## API Documentation
 [Link to API Documentation](https://documenter.getpostman.com/view/26130158/2s93CUG9HF)
@@ -59,14 +59,14 @@ The frontend was made with react and can be found [here](https://github.com/didi
 
 ### Key Features <a name="key-features"></a>
 
-- **Uml diagram**
-- **Migrations.**
+- **Deploy application API on render**
+- **Update Api documentation with deployed url**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://rentcars.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -164,8 +164,8 @@ You can deploy this project using:
 ## 🔭 Future Features <a name="future-features"></a>
 
 
-- [ ] **Controllers.**
-- [ ] **Authentication.**
+- [ ] **Integrate Admin action.**
+- [ ] **Integrate super users.**
   
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
