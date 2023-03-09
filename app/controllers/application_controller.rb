@@ -29,5 +29,4 @@ class ApplicationController < ActionController::API
     render json: { message: 'you have to log in before accessing the api' },
            status: :unauthorized
   end
-
 end
