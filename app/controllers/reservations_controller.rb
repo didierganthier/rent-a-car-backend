@@ -1,10 +1,9 @@
 class ReservationsController < ApplicationController
-  before_action :authorize, only: %i[create update destroy]
+  before_action :authorize
   before_action :read_reservation, only: [:destroy]
 
   def index
-    @reservations = Reservation.all
-    render json: @reservations
+    render json: @user.reservations
   end
 
   def create
